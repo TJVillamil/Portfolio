@@ -1,9 +1,10 @@
-// import Message from "./Message";
+import React from "react";
+import NavBar from "./components/ui/NavBar";
 
 function App() {
   return (
     <div>
-      <div className="text-4xl text-green-500">Tailwind is working!</div>
+      <NavBar />
     </div>
   );
 }
