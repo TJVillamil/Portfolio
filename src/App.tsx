@@ -1,11 +1,19 @@
 import React from "react";
 import NavBar from "./components/ui/NavBar";
+import About from "./components/ui/About";
+import Education from "./components/ui/Education";
+import Project from "./components/ui/Project";
+import Contact from "./components/ui/Contact";
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
-    </div>
+      <About />
+      <Education />
+      <Project />
+      <Contact />
+    </>
   );
 }
 
